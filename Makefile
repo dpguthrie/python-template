@@ -26,7 +26,3 @@ test_with_warnings:
 poetry_dev:
 	# Add default poetry dev dependencies
 	poetry add -D black pre-commit isort mypy flake8 pytest pytest-dependency coverage pytest-cov mkdocs-material ipython
-
-create_repo:
-	# Create a new repository on the command line from this template
-	gh repo create --template https://github.com/dpguthrie/python-template
